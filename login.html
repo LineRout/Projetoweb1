@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Start Gym - Entrar</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img class="image_logo"src="./images/foto_start_gym.png" alt="Start Gym Logo">
+      <h1>Start Gym</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="register.html">Registrar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Entre em sua conta</h2>
+      <form id="loginForm" action="index.html" method="post" onsubmit="return validateLoginForm()">
+        <label for="loginEmail">Email:</label>
+        <input type="email" id="loginEmail" name="loginEmail" required>
+
+        <label for="loginPassword">Senha:</label>
+        <input type="password" id="loginPassword" name="loginPassword" required>
+
+        <input type="submit" value="Entrar">
+        <p><a href="#">Esqueceu sua senha?</a></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Start Gym. Todos direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

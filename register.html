@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Start Gym - Registrar</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img class="image_logo"src="./images/foto_start_gym.png" alt="Start Gym Logo">
+      <h1>Start Gym</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Entrar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Crie sua conta</h2>
+      <form id="registerForm" action="login.html" method="post" onsubmit="return validateRegisterForm()">
+        <label for="fullName">Nome Completo:</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phoneNumber">Telefone:</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirmPassword">Confirmar Senha:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+        <input type="submit" value="Registrar">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Start Gym. Todos direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
