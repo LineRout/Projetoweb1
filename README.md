@@ -33,11 +33,8 @@ Abaixo está a organização dos arquivos e pastas do projeto:
 ├── style.css           # Arquivo de estilos CSS
 ├── script.js           # Lógica interativa em JavaScript
 ├── /images             # Imagens usadas na página (logo, serviços, etc.)
-├── /icons              # Ícones das redes sociais
 ├── login.html          # Página de login
 ├── register.html       # Página de registro
-├── contact.html        # Página de contato
-├── cv_member1.html     # CV do membro Matheus Felipe
 ├── README.md           # Este arquivo
 ```
 
