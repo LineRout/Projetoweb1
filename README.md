@@ -43,7 +43,7 @@ Abaixo está a organização dos arquivos e pastas do projeto:
 
 ---
 
-📝 Formulários
+## 📝 Formulários
 Página de Login (login.html)
 Permite que usuários existentes façam login em sua conta usando:
 Email
@@ -60,12 +60,12 @@ Ambos os formulários incluem validações básicas para garantir a qualidade do
 
 ---
 
-👥 Equipe
+## 👥 Equipe
 Matheus Felipe Delmont Mitraud
 Raul Pan Bertoline 
 Vanderson Augusto Ferreira da Rosa
 
 ---
 
-📧 Contato
+## 📧 Contato
 Se tiver dúvidas ou sugestões, entre em contato com qualquer membro da equipe através dos links fornecidos na seção de rodapé do site.
