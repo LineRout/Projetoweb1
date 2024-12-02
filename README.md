@@ -4,7 +4,7 @@ Bem-vindo ao **Start Gym**, um projeto de página web simples desenvolvido para 
 
 ---
 
-🌐 Como acessar o projeto: https://linerout.github.io/Projetoweb1/
+## 🌐 Como acessar o projeto: https://linerout.github.io/Projetoweb1/
 
 ---
 
