@@ -1,18 +1,18 @@
-// Script for form validation
+// Script para validação
 
 function validateRegisterForm() {
     const password = document.getElementById('password').value;
     const confirmPassword = document.getElementById('confirmPassword').value;
   
     if (password !== confirmPassword) {
-      alert('Passwords do not match!');
+      alert('Senhas não correspondem!');
       return false;
     }
     return true;
   }
   
   function validateLoginForm() {
-    // Add login form validation if needed
+    // Adiciona login para validação, se necessário
     return true;
   }
   
