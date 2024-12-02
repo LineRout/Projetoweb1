@@ -58,9 +58,9 @@ Ambos os formulários incluem validações básicas para garantir a qualidade do
 ---
 
 ## 👥 Equipe
-Matheus Felipe Delmont Mitraud
-Raul Pan Bertoline 
-Vanderson Augusto Ferreira da Rosa
+**Matheus Felipe Delmont Mitraud** - [CV](https://mitraud.github.io/CV-MatheusMitraud/)  
+**Raul Pan Bertoline** - [CV](https://linerout.github.io/-raulpanbertoline-.github.io/)  
+**Vanderson Augusto Ferreira da Rosa** - [CV]()  
 
 ---
 
