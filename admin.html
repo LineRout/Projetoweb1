@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Start Gym - Registrar</title>
+  <title>Start Gym - Admin</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <div class="logo">
-      <img class="image_logo"src="./images/foto_start_gym.png" alt="Start Gym Logo">
+      <img class="image_logo" src="./images/foto_start_gym.png" alt="Start Gym Logo">
       <h1>Start Gym</h1>
     </div>
     <nav>
@@ -22,25 +22,23 @@
 
   <main>
     <section class="form-section">
-      <h2>Crie sua conta</h2>
-      <form id="registerForm" action="login.html" method="post" onsubmit="return validateRegisterForm()">
+      <h2>Gerenciar Usuários</h2>
+      <form id="adminForm">
         <label for="fullName">Nome Completo:</label>
         <input type="text" id="fullName" name="fullName" required>
 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
 
-        <label for="phoneNumber">Telefone:</label>
-        <input type="tel" id="phoneNumber" name="phoneNumber" required>
-
-        <label for="password">Senha:</label>
-        <input type="password" id="password" name="password" required>
-
-        <label for="confirmPassword">Confirmar Senha:</label>
-        <input type="password" id="confirmPassword" name="confirmPassword" required>
-
-        <input type="submit" value="Registrar">
+        <input type="submit" value="Adicionar Usuário">
       </form>
+    </section>
+
+    <section class="user-list">
+      <h2>Lista de Usuários</h2>
+      <input type="text" id="search" placeholder="Pesquisar usuário...">
+      <button class='button_delete'id="clearAll">Excluir Todos</button>
+      <ul id="userList"></ul>
     </section>
   </main>
 
@@ -48,6 +46,6 @@
     <p>&copy; 2023 Start Gym. Todos direitos reservados.</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="admin.js"></script>
 </body>
 </html>
