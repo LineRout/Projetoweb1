@@ -8,7 +8,7 @@ Bem-vindo ao **Start Gym**, um projeto de página web simples desenvolvido para 
 
 ---
 
-## 🏍b️ Descrição do Projeto
+## 🏋🏻‍♀️ Descrição do Projeto
 
 O Start Gym é uma academia dedicada a ajudar pessoas a alcançarem seus objetivos de saúde e fitness por meio de treinos personalizados, treinamento em grupo e planos nutricionais. Esta página foi desenvolvida para apresentar esses serviços e incentivar potenciais clientes a se inscreverem.
 
